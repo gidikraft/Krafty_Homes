@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Krafty Homes</string>
+    <string name="seun_fagade">Seun Fagade</string>
+    <string name="user_email">seun_fagade@decagon.dev</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="login">Login</string>
+</resources>
