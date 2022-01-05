@@ -13,4 +13,11 @@
     <color name="home_fragment">#6EDC51</color>
     <color name="login_fragment">#3FDDD8</color>
     <color name="settings_fragment">#D57BE4</color>
+    <color name="splash_screen">#818A8A</color>
+
+    <color name="text_color">#ECE5EC</color>
+    <color name="pink_color">#FF003B</color>
+    <color name="transparent_color">#00FFFFFF</color>
+    <color name="action_bar">#0E9AF8</color>
+
 </resources>

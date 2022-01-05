@@ -7,61 +7,61 @@
 
     <item
         android:id="@+id/home"
-        android:title="Home"
+        android:title="@string/home"
         android:icon="@drawable/ic_home_icon"
         />
 
     <item
-        android:id="@+id/message"
-        android:title="Messgae"
+        android:id="@+id/dashboard"
+        android:title="@string/dashboard"
         android:icon="@drawable/ic_message_icon"
         />
 
     <item
         android:id="@+id/sync"
-        android:title="Sync"
+        android:title="@string/sync"
         android:icon="@drawable/ic_sync_icon"
         />
 
     <item
         android:id="@+id/trash"
-        android:title="Trash"
-        android:icon="@drawable/ic_trash_ison"
+        android:title="@string/trash"
+        android:icon="@drawable/ic_trash_icon"
         />
 
     <item
         android:id="@+id/settings"
-        android:title="Settings"
+        android:title="@string/settings"
         android:icon="@drawable/ic_settings_icon"
         />
     </group>
 
-    <item android:title="Profile">
+    <item android:title="@string/profile">
         <menu>
 
-            <group>
+            <group android:checkableBehavior="single">
             <item
                 android:id="@+id/login"
-                android:title="Login"
+                android:title="@string/login"
                 android:icon="@drawable/ic_login_icon"/>
             </group>
         </menu>
     </item>
 
-    <item android:title="Communicate">
+    <item android:title="@string/communicate">
 
         <menu>
 
             <group android:checkableBehavior="single">
             <item
                 android:id="@+id/share"
-                android:title="Share"
+                android:title="@string/share"
                 android:icon="@drawable/ic_share_icon"
                 />
 
             <item
                 android:id="@+id/review"
-                android:title="Rate Us"
+                android:title="@string/rate_us"
                 android:icon="@drawable/ic_rate_review_icon"
                 />
             </group>

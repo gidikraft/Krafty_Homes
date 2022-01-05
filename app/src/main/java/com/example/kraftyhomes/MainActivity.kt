@@ -8,6 +8,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import com.example.kraftyhomes.databinding.ActivityMainBinding
+import com.example.kraftyhomes.fragments.DashboardFragment
 import com.example.kraftyhomes.fragments.HomeFragment
 import com.example.kraftyhomes.fragments.LoginFragment
 import com.example.kraftyhomes.fragments.SettingsFragment
@@ -36,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
             when(it.itemId){
                 R.id.home -> replaceFragment(HomeFragment(), it.title.toString())
-                R.id.message -> Toast.makeText(this, "Clicked Message", Toast.LENGTH_SHORT).show()
+                R.id.dashboard -> replaceFragment(DashboardFragment(), it.title.toString())
                 R.id.sync -> Toast.makeText(this, "Clicked Sync", Toast.LENGTH_SHORT).show()
                 R.id.trash -> Toast.makeText(this, "Clicked Trash", Toast.LENGTH_SHORT).show()
                 R.id.settings -> replaceFragment(SettingsFragment(), it.title.toString())
